@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.FormationHomeController">
+   <children>
+      <Button fx:id="BtnAdmin" layoutX="53.0" layoutY="80.0" mnemonicParsing="false" onAction="#OuvrirPageAdminFormation" prefHeight="33.0" prefWidth="134.0" text="Interface Admin">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtnClient" layoutX="53.0" layoutY="183.0" mnemonicParsing="false" onAction="#OuvrirPageClientFormation" prefHeight="33.0" prefWidth="134.0" text="Interface Client">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

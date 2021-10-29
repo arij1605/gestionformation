@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root{
+    -fx-background-image: url("Capture.png");
+    -fx-background-size: cover;
+    
+
+}
+.button {
+    -fx-background-color: linear-gradient(#0f2e7d, #0f2e7d);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
